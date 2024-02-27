@@ -11,10 +11,10 @@ the array".
 var sevenBoom = function (array) {
   for (let i = 0; i < array.length; i++) {
     if (array[i] == 7) {
-      var contem7 = true;
+      var has7 = true;
     }
   }
-  return contem7 ? "Boom" : "there is no 7 in the array";
+  return has7 ? "Boom" : "there is no 7 in the array";
 };
 
 // console.log(sevenBoom([1, 2, 3, 4, 5, 6, 7]));

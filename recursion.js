@@ -70,13 +70,3 @@ the exponent.
 
 // 8 - base
 // 64 - result
-
-var exponent = function (base_num, result_num) {
-  if (base_num == result_num) {
-    return 1;
-  } else {
-    return exponent(base_num, result_num / base_num);
-  }
-};
-
-// console.log(exponent(4, 64));
